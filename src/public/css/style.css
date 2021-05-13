@@ -1,42 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 /* CLASS MAINS */
-*{
-    margin: 0;
-    padding: 0;
-    background-color: #cadefc;
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #cadefc;
 }
 
-h5{
-    font-family: "Fira", "sans-serif";
+h5 {
+  font-family: "Fira", "sans-serif";
 }
 
-p{
-    font-family: "Open Sans", "sans-serif";
-    text-align: justify;
+p {
+  font-family: "Open Sans", "sans-serif";
+  text-align: justify;
 }
 /* SUB-DIVISORES */
-#container{
-    align-items: center;
+#container {
+  align-items: center;
 }
 /* GRID */
 
 .grid-container {
-    display: grid;
-    height: 100vh;
-    align-content: center;
-    grid-template-columns: auto auto 0.7em;
-  }
-  
-  .grid-container > div {
-    text-align: center;
-  }
+  display: grid;
+  height: 100vh;
+  align-content: center;
+  grid-template-columns: auto auto 0.7em;
+}
 
-  @media (max-width: 770px){
-    #container {
-        padding-top: 10em;
-        padding-bottom: 10em;
+.grid-container > div {
+  text-align: center;
+}
 
-    }
+@media (max-width: 770px) {
+  #container {
+    padding-top: 10em;
+    padding-bottom: 10em;
   }
+}
